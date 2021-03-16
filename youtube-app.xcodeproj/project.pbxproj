@@ -13,6 +13,9 @@
 		A1602BF32600D8E900E2D4C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1602BF12600D8E900E2D4C3 /* Main.storyboard */; };
 		A1602BF52600D8ED00E2D4C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1602BF42600D8ED00E2D4C3 /* Assets.xcassets */; };
 		A1602BF82600D8ED00E2D4C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1602BF62600D8ED00E2D4C3 /* LaunchScreen.storyboard */; };
+		A1602C012600EF6900E2D4C3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1602C002600EF6900E2D4C3 /* Constants.swift */; };
+		A1602C052600F32E00E2D4C3 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1602C042600F32E00E2D4C3 /* Video.swift */; };
+		A1602C082600F3AA00E2D4C3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1602C072600F3AA00E2D4C3 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		A1602BF42600D8ED00E2D4C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1602BF72600D8ED00E2D4C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1602BF92600D8ED00E2D4C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1602C002600EF6900E2D4C3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A1602C042600F32E00E2D4C3 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		A1602C072600F3AA00E2D4C3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				A1602BF42600D8ED00E2D4C3 /* Assets.xcassets */,
 				A1602BF62600D8ED00E2D4C3 /* LaunchScreen.storyboard */,
 				A1602BF92600D8ED00E2D4C3 /* Info.plist */,
+				A1602C002600EF6900E2D4C3 /* Constants.swift */,
+				A1602C042600F32E00E2D4C3 /* Video.swift */,
+				A1602C072600F3AA00E2D4C3 /* Model.swift */,
 			);
 			path = "youtube-app";
 			sourceTree = "<group>";
@@ -137,9 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1602C012600EF6900E2D4C3 /* Constants.swift in Sources */,
 				A1602BF02600D8E900E2D4C3 /* ViewController.swift in Sources */,
 				A1602BEC2600D8E900E2D4C3 /* AppDelegate.swift in Sources */,
+				A1602C082600F3AA00E2D4C3 /* Model.swift in Sources */,
 				A1602BEE2600D8E900E2D4C3 /* SceneDelegate.swift in Sources */,
+				A1602C052600F32E00E2D4C3 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
